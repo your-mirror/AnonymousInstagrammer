@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <EditText
+            android:theme="@style/SearchUserAutocomplete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/search_user_edit"
+            android:hint="@string/search_user_hint"
+            android:maxLines="1"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ic_action_clear"
+            android:id="@+id/search_user_clear_button"
+            android:layout_marginRight="5dp"
+            android:visibility="invisible"/>
+    </FrameLayout>
+
+    <include
+        layout="@layout/spinner_progress_bar"
+    />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/search_user_list"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp">
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<com.dev.your_mirror.anonymousinstagrammer.custom.widget.SquareRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/user_media_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+</com.dev.your_mirror.anonymousinstagrammer.custom.widget.SquareRelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AnonymousInstagrammer</string>
+    <string name="ok">Ок</string>
+    <string name="search_user_hint">Найти пользователя</string>
+    <string name="error_title">Внимание ошибка!</string>
+    <string name="network_connect_error_message">Проверьте интеренет соединение</string>
+    <string name="api_request_meta_error_message">Ошибка при запросе к API. Код ответа: %1$d</string>
+</resources>
